@@ -22,11 +22,11 @@ on:
       - master
 
 env:
-  HUB: ghcr.io/apache/dolphinscheduler-operator
+  HUB: ghcr.io/ssfdust/dolphinscheduler-operator
 
 jobs:
   build:
-    if: github.repository == 'apache/dolphinscheduler-operator'
+    if: github.repository == 'ssfdust/dolphinscheduler-operator'
     runs-on: ubuntu-latest
     permissions:
       contents: read
